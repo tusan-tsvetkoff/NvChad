@@ -14,6 +14,13 @@ if putka then
   return
 end
 
+local drugoNeshto = "drugaNeshto"
+
+if drugoNeshto then
+  print "radoEgEI"
+  return
+end
+
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 
 -- bootstrap lazy.nvim!
