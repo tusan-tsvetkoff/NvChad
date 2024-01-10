@@ -6,6 +6,8 @@ if custom_init_path then
   dofile(custom_init_path)
 end
 
+local govna = false
+
 require("core.utils").load_mappings()
 
 local putka = false
