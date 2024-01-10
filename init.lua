@@ -8,6 +8,12 @@ end
 
 require("core.utils").load_mappings()
 
+local putka = false
+
+if putka then
+  return
+end
+
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 
 -- bootstrap lazy.nvim!
